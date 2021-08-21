@@ -14,4 +14,4 @@ class Solution(object):
             
             
 solution = Solution()
-solution.reverse(123)
+print(solution.reverse(123))
