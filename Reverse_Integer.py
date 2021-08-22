@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/reverse-integer/submissions/
 class Solution(object):
 
       def reverse(self, x):
