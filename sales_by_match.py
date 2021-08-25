@@ -11,7 +11,7 @@ def sockMerchant(n, ar):
     count = 0
     colors = dict()
     for color in ar:
-
+        
         if (color in colors):
             count += 1
             del colors[color]
