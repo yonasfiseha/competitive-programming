@@ -1,7 +1,7 @@
 
 #https://www.hackerrank.com/challenges/sock-merchant/problem
 import math
-import os
+import os 
 import random
 import re
 import sys
@@ -18,7 +18,6 @@ def sockMerchant(n, ar):
         else:
             colors[color] = 0
     return count
-print(sockMerchant(n=10, ar=[1, 1, 3, 1, 2, 1, 3, 3, 3, 3]))
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
